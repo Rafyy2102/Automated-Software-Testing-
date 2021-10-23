@@ -1,0 +1,667 @@
+{
+  "id": "af51620b-d1eb-498e-83e0-8ef7d61b8436",
+  "version": "2.0",
+  "name": "Aula1SeleniumTest",
+  "url": "https://dog.ceo/dog-api/breeds-list",
+  "tests": [{
+    "id": "291044ac-069e-4801-b5fe-a8caaf0c7639",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0ae06860-325c-4b19-bbf6-7f9cacca8fd7",
+      "comment": "",
+      "command": "open",
+      "target": "/HTTP_API_Definition",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7573d68-21cf-4f43-a2a4-1ae8f2fd81de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1b249e6-8538-4248-93cc-db302d24fde7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View source",
+      "targets": [
+        ["linkText=View source", "linkText"],
+        ["css=#ca-viewsource > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View source')]", "xpath:link"],
+        ["xpath=//li[@id='ca-viewsource']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php?title=HTTP_API_Definition&action=edit')]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View source')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f61655e-5c80-4c75-a4b5-3811c3ecd0f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Template:AniDBLink",
+      "targets": [
+        ["linkText=Template:AniDBLink", "linkText"],
+        ["css=.templatesUsed li:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Template:AniDBLink')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Template:AniDBLink')]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Template:AniDBLink')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5471ed5-b2e6-4415-a44d-2d13996669c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Discussion",
+      "targets": [
+        ["linkText=Discussion", "linkText"],
+        ["css=#ca-talk > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Discussion')]", "xpath:link"],
+        ["xpath=//li[@id='ca-talk']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php?title=Template_talk:AniDBLink&action=edit&redlink=1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discussion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3016c335-4b08-4b5d-828b-d05c16166f29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tracker",
+      "targets": [
+        ["linkText=Tracker", "linkText"],
+        ["css=#n-Tracker > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tracker')]", "xpath:link"],
+        ["xpath=//li[@id='n-Tracker']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tracker.anidb.net/']", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tracker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7364371e-af66-42c6-9bfe-37e2040b7097",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-dashboard",
+      "targets": [
+        ["css=.fa-dashboard", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe195085-75ec-4340-9d3f-a2078c708bce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-buglist-bug:nth-child(1) .status-10-fg",
+      "targets": [
+        ["css=.my-buglist-bug:nth-child(1) .status-10-fg", "css:finder"],
+        ["xpath=//div[@id='unassigned']/div[2]/div/div/table/tbody/tr/td/i", "xpath:idRelative"],
+        ["xpath=//td/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ed9247-fa4b-44f2-ae28-d268962eee03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.padding-4",
+      "targets": [
+        ["css=.padding-4", "css:finder"],
+        ["xpath=//div[@id='timeline']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'No activity within time range.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d30ce6dd-7ace-459e-a8cc-73b475db9514",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All Projects",
+      "targets": [
+        ["linkText=All Projects", "linkText"],
+        ["css=#dropdown_projects_menu > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'All Projects')]", "xpath:link"],
+        ["xpath=//li[@id='dropdown_projects_menu']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d35b6ecb-2cbc-4ba1-b2e6-9eeb3dcf6c1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AJAX/JS",
+      "targets": [
+        ["linkText=AJAX/JS", "linkText"],
+        ["css=li:nth-child(4) > .project-link", "css:finder"],
+        ["xpath=//a[contains(text(),'AJAX/JS')]", "xpath:link"],
+        ["xpath=//ul[@id='projects-list']/li[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/set_project.php?project_id=21;18')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'     AJAX/JS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9d4c255-440a-421c-9543-bb837fd8f58f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-road",
+      "targets": [
+        ["css=.fa-road", "css:finder"],
+        ["xpath=//div[@id='sidebar']/ul/li[4]/a/i", "xpath:idRelative"],
+        ["xpath=//li[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db90338d-3f34-4201-a814-4938b34e100c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Signup for a new account",
+      "targets": [
+        ["linkText=Signup for a new account", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Signup for a new account')]", "xpath:link"],
+        ["xpath=//div[@id='breadcrumbs']/ul/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/signup_page.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Signup for a new account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f72613f1-757b-4af7-9724-7dab784a032b",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signup-form']/fieldset/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7139333-c454-4f9b-8bb9-61d0b5dae8f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signup-form']/fieldset/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "rafpromais@yahoo.com.br"
+    }, {
+      "id": "1a36d411-5df1-4a58-8992-c4dc0734d962",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//form[@id='signup-form']/fieldset/label[2]/span/input", "xpath:idRelative"],
+        ["xpath=//label[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49580050-ca79-4eeb-a558-0d36cc6de9c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-field",
+      "targets": [
+        ["id=email-field", "id"],
+        ["name=email", "name"],
+        ["css=#email-field", "css:finder"],
+        ["xpath=//input[@id='email-field']", "xpath:attributes"],
+        ["xpath=//form[@id='signup-form']/fieldset/label[2]/span/input", "xpath:idRelative"],
+        ["xpath=//label[2]/span/input", "xpath:position"]
+      ],
+      "value": "rafpromais@yahoo.com.br"
+    }, {
+      "id": "502a3f9e-01fd-4bb1-ace0-0f7c7494fc50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.width-40",
+      "targets": [
+        ["css=.width-40", "css:finder"],
+        ["xpath=//input[@value='Signup']", "xpath:attributes"],
+        ["xpath=//form[@id='signup-form']/fieldset/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "907c6522-429a-4e9b-b997-133fc89d318a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Proceed",
+      "targets": [
+        ["linkText=Proceed", "linkText"],
+        ["css=.width-40", "css:finder"],
+        ["xpath=//a[contains(text(),'Proceed')]", "xpath:link"],
+        ["xpath=//div[@id='login-box']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'login_page.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Proceed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e4651d-f4cd-43c9-bc61-d4998016f6c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Signup for a new account",
+      "targets": [
+        ["linkText=Signup for a new account", "linkText"],
+        ["css=.pull-left", "css:finder"],
+        ["xpath=//a[contains(text(),'Signup for a new account')]", "xpath:link"],
+        ["xpath=//div[@id='login-box']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'signup_page.php')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Signup for a new account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5229d71b-0c8c-4dfa-805a-850c2dfea8c7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50a60630-cb10-4fbd-86a0-2b00eed9d34b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd22f1e-4e76-4edf-8086-e706280428ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a53b50d-29fb-4ea4-ba6b-6a575b56001c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6144e1a-bc5d-4431-9124-5d738c9b3223",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4079323c-d955-4239-89c7-3e5990933341",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92db4dea-828b-46c3-86d7-be49ec5a9174",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d658ae-1d84-49fb-a2ff-e5ebc4cdeaee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5965142b-c94f-4674-bbd9-5b5994aa25a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f1a9e1-d92d-47b4-9659-fab356236cde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cfb00a6-3500-4885-a744-55b482b5a8e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9168da1c-10c7-465a-a29a-eef13bf5118f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ffca81d-7078-4b23-904b-ef2e4030f942",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "368f6572-68ad-4101-b7e5-38ab6b98ac7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5063f7-3da9-448e-b8be-5f31e8bf070c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b40fd06-6fb9-4d07-9ecc-f15530ccb40c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e972bfb4-261b-4030-9fa1-dbb4a4e44b89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21fec7dd-29c5-4fdf-9dc1-4f4eaab38dbf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc82c87a-867d-4998-add3-830efb2aa532",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "134c1e29-4df4-4ea1-84ed-7d07d6efd835",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10181647-eed4-469a-b87c-fcddbafc26c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9b483d-9181-4353-8e15-37ce6eebe213",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dcfba5a-9645-41bc-9b81-8d9dcd994db8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d90889c-5772-476e-905d-3fe3d50b5c58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ece5255-db50-41fb-a2d6-7c37f0400ec2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa6e29c-f94f-466f-9016-50683cdadd9f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24ae16cc-105c-41a6-996f-07db5fcb3bdc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f515a3-efcf-4abc-8361-74ab07092330",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fetch!",
+      "targets": [
+        ["linkText=Fetch!", "linkText"],
+        ["css=.get-dog", "css:finder"],
+        ["xpath=//a[contains(text(),'Fetch!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0);')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Fetch!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "901e26b6-b9db-4d9a-9a86-edd86569d68a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["291044ac-069e-4801-b5fe-a8caaf0c7639"]
+  }],
+  "urls": ["https://wiki.anidb.net/"],
+  "plugins": []
+}
